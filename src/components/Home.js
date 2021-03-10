@@ -58,7 +58,6 @@ import { Container, Row, Col,
 
 function Home(){
     const [lists,setList]=useState([]); 
-    const [courses, setCourses] = useState([]);
 
     
 
@@ -69,7 +68,7 @@ function Home(){
 
 
     const sorting = (key) => {
-        let newData = [...courses];
+        let newData = [...lists];
         const beforeSortCourses = JSON.stringify(newData);
         newData.sort(compareByAsc(key));
         const afterSortCourses = JSON.stringify(newData);
