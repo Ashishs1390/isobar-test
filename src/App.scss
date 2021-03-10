@@ -1,0 +1,25 @@
+.Home{
+    margin-top: 50px;
+    img{
+        width: 150px;
+    }
+    .hideDiv{
+        display: none;
+        transition: 0.5s;
+
+    }
+
+    .showDiv {
+        display: block;
+        transition: 0.5s;
+    }
+    .SortWrapper{
+        margin: 10px 0;
+        .SortByDate{
+            margin-right: 10px;
+        }
+    }
+
+}
+
+
